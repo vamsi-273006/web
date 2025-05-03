@@ -1,0 +1,97 @@
+.container{
+
+    width: 1000px;
+    height: 500px;
+    padding-left: 250px;
+    padding-top: 100px;
+    /* border-color: black;
+    border-style: solid; */
+    
+}
+.item-1, .item-2, .item-3, .item-4{
+    display: inline-block;
+    width: 230px;
+    /* height: 450px; */
+    /* border: 2px solid red; */
+    
+}
+img{
+    width: 100%;
+}
+.main{
+    width: 1400px;
+    /* border: 2px solid black; */
+    margin-left: 40px;
+}
+.main img{
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+}
+.main h3{
+    display: inline-block;
+    padding-left: 500px;
+}
+.simg{
+    width: 1000px;
+    /* height: 300px; */
+    /* border: 2px solid black; */
+    margin-left: 200px;
+}
+.simg img{
+    width: 700px;
+    /* height: 500px; */
+    padding-left: 150px;
+    
+}
+.simg h2{
+    padding-left: 420px;
+    
+}
+.pi{
+    padding-left: 380px;
+}
+.simg p{
+    text-align: center;
+}
+.foot{
+    width: 80%;
+    /* height: 300px; */
+    /* border: 5px double black; */
+    margin-left: 200px;
+}
+.first, .second, .third{
+    display: inline-block;
+    width: 30%;
+    /* height: 280px; */
+    /* border: 3px solid red; */
+}
+.first{
+    margin-left: 10px;
+}
+.second{
+    display: inline-block;
+}
+.second img{
+padding-left: 20px;
+width: 25%;
+height: 50px;
+display: inline-block;
+
+}
+.second h3,p{
+    display: inline-block;
+    
+} 
+.second, .third{
+    margin-left: 30px;
+}
+.b{
+    padding: auto;
+    background-color: black;
+    color: white;
+}
+hr{
+    opacity: 0.3;
+    width: 80%;
+}
