@@ -1,19 +1,70 @@
 .main{
-    width: 1500px;
-    height: 700px;
+    width: 100%;
+    /* height: 200px; */
+    /* border: 2px double black; */
+    /* position: fixed; */
+}
+
+.syd1{
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    /* top: 0px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    height: 70px;
+    /* padding-top: 50px; */
+    z-index: 1;
+    background-color: white;
+    padding-top: 35px;
+    /* margin: 0px; */
+    
+}
+hr{
+    opacity: 0.5;
+}
+
+
+
+
+
+
+.syd img{
+    width: 100%;
+    margin-top: 100px;
+    height: 100%;
+    
+
+}
+.syd{
+    position: relative;
+
+}
+.text{
+    position: absolute;
+    top: 600px;
+    left: 750px;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.main1{
+    /* margin-top: 100px; */
+    width: 100%;
+    /* height: 700px; */
     /* border: 5px double black; */
 }
 .sub1{
-    width: 1500px;
+    width: 100%;
     height: 360px;
     /* border: 2px solid red; */
 }
 .sub2{
-    width: 1500px;
+    width: 100%;
     height: 340px;
 }
 .container, .i2, .i3, .i4,.i5,.i6,.i7,.i8{
-    width: 350px;
+    width: 24%;
     height: 350px;
     /* border: 5px double black; */
     position: relative;
@@ -35,4 +86,80 @@
 img{
     width: 100%;
     height: 350px;
+}
+.p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    text-align: justify;
+}
+.main2{
+    width: 100%;
+    /* height: 350px; */
+    /* border: 5px double black; */
+    /* position: relative; */
+}
+.pic1,.pic2, .pic3, .pic4{
+    width: 24%;
+    height: 600px;
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    display: inline-block;
+}
+/* .pic4{
+    width: 24%;
+    height: 580px;
+    border: 2px solid black;
+    display: inline-block;
+    /* top: 20px; */
+/* .pic1 img{
+    width:100%; */
+    /* height: 300px;
+
+} */
+/* .pic1,.pic2,.pic3,.pic4 p{
+    font-size: 10px;
+} */
+/* .pic1,.pic2,.pic3,.pic4 h3{
+    opacity: 0.5;
+} */
+.pic1,.pic2, .pic3, .pic4 p{
+    font-size: 18px;
+    /* left: 0px; */
+
+}
+/* .pic4{
+    margin-bottom: 20px;
+} */
+.main2 h3{
+    opacity: 0.5;
+}
+.pic4{
+    padding-bottom: 20px;
+}
+button {
+    padding: 8px 155px;
+}
+hr{
+    opacity: 0.5;
+}
+h5{
+    font-size: 20px;
+}
+.map{
+    width: 100%;
+    /* height: 500px; */
+    /* border: 4px double navy; */
+}
+.map img{
+    width: 100%;
+    height: 700px;
+}
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
 }
