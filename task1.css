@@ -1,0 +1,90 @@
+.header{
+    position: relative;
+}
+.head{
+    width: 100%;
+    height: 50px;
+    /* border: 3px double black; */
+    padding-top: 29px;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+}
+.first{
+    width: 100%;
+    height: 600px;
+    margin-top: 80px;
+    /* border: 2px double black; */
+    position: relative;
+    padding: 3px;
+}
+.sub-first{
+    position: absolute;
+    padding-top: 530px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: Times New Roman, 'Times', serif;
+}
+.first img{
+    width: 100%;
+    height: 580px;
+
+}
+
+.second{
+    width: 40%;
+    /* height: 500px; */
+    /* border: 2px solid black; */
+    display: inline-block;
+    padding-left: 100px;
+}
+.second1{
+    width: 45%;
+    height: 380px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    padding-left: 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+.second img{
+    width: 70%;
+    /* height: 500px; */
+    opacity: 0.5;
+}
+.pa{
+    opacity: 0.5;
+}
+.third{
+    width: 50%;
+    height: 600px;
+    /* border: 2px solid black; */
+    padding-left: 150px;
+    display: inline-block;
+
+}
+.sub-third{
+    width: 30%;
+    /* height: 500px; */
+    /* border: 2px solid black; */
+    display: inline-block;
+    
+}
+.sub-third img{
+  width: 100%;
+  /* height: 450px; */
+  opacity: 0.5;
+  
+}
+.last{
+    width: 90%;
+    height: 400px;
+    /* border: 2px solid black; */
+    padding-left: 100px;
+}
+input{
+    width: 100%;
+    height: 40px;
+   
+}
